@@ -2,14 +2,18 @@ h2:hover {
 	color: blue;
 }
 
+h2[class="about-me"] {
+	color:magenta;
+}
+
 .about-me {
 	color: red;
 }
 
-#services {
+/*#services {
 	color: green;
 }
-
+*/
 ul:hover {
 	color: purple;
 }
@@ -36,4 +40,12 @@ ul > li {
 
 ul li {
 	color: magenta;
+}
+
+img[src*="../img/"] {
+	border: 10px solid black;
+}
+
+h2[class~=about-me2] {
+	background: green;
 }
