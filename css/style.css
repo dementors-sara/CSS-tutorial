@@ -14,10 +14,26 @@ ul:hover {
 	color: purple;
 }
 
-#google-link:link {
+/*#google-link:link {
 	color: blue;
 }
 
 #google-link:visited {
 	color:red;
+}*/
+
+h2 + a {
+	color: yellow;
+}
+
+textarea + button {
+	color: purple;
+}
+
+ul > li {
+	color:blue;
+}
+
+ul li {
+	color: magenta;
 }
