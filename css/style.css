@@ -1,4 +1,4 @@
-h2 {
+h2:hover {
 	color: blue;
 }
 
@@ -8,4 +8,16 @@ h2 {
 
 #services {
 	color: green;
+}
+
+ul:hover {
+	color: purple;
+}
+
+#google-link:link {
+	color: blue;
+}
+
+#google-link:visited {
+	color:red;
 }
