@@ -18,13 +18,13 @@ ul:hover {
 	color: purple;
 }
 
-/*#google-link:link {
+#google-link:link {
 	color: blue;
 }
 
 #google-link:visited {
-	color:red;
-}*/
+	color:yellow;
+}
 
 h2 + a {
 	color: yellow;
@@ -39,7 +39,7 @@ ul > li {
 }
 
 ul li {
-	color: magenta;
+	color: rgb(0,255,230);
 }
 
 img[src*="../img/"] {
@@ -49,3 +49,4 @@ img[src*="../img/"] {
 h2[class~=about-me2] {
 	background: green;
 }
+
