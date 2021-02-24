@@ -73,6 +73,7 @@ img[src*="../img/"] {
 	width: 70vw;
 	/*background: linear-gradient(160deg, rgba(94,255,90, 0.5), green, blue);*/
 	background: radial-gradient(red 20%, blue 40%, grey 50%);
+	float: right;
 	/*background-size: cover;*/
 	border: 14px double pink;
 	
@@ -84,5 +85,20 @@ img[src*="../img/"] {
 	font-style: italic;
 }
 
+.container {
+	background-color: rgb(250,250,250);
+	margin: 10px;
+	display: flex;
+}
+
+.container-item {
+	background: rgb(140,150,250);
+	color: white;
+	text-align: center;
+
+	width: 70px;
+	line-height: 50px;
+	margin: 10px;
+}
 
 
