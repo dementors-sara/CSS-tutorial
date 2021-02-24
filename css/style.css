@@ -46,7 +46,14 @@ img[src*="../img/"] {
 	border: 10px solid black;
 }
 
-h2[class~=about-me2] {
-	background: green;
+
+.about-me {
+	background: blue
 }
+
+body {
+	background: rgb(5,4,120);
+}
+
+
 
