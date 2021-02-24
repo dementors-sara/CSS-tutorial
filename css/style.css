@@ -1,6 +1,8 @@
 
 body {
 	background: linear-gradient(to bottom, rgb(50, 168, 82), rgb(50,50,50));
+	text-transform: uppercase;
+	text-align: justify;
 }
 
 
@@ -52,6 +54,9 @@ img[src*="../img/"] {
 	border: 10px solid black;
 }
 
+#google-link {
+	text-decoration: line-through;
+}
 
 .about-me {
 	background: blue
