@@ -1,9 +1,9 @@
 
 body {
-	background: linear-gradient(to bottom, rgb(50, 168, 82), rgb(50,50,50));
+	background: linear-gradient(to bottom, rgb(252, 186, 3), white);
 	font-size: 1.25em
 	text-align: justify;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Georgia", sans-serif;
 }
 
 .title {
@@ -11,7 +11,7 @@ body {
 }
 
 h2:hover {
-	color: blue;
+	color: rgba(207, 152, 0, 0.6);
 }
 
 h2[class="about-me"] {
@@ -19,7 +19,7 @@ h2[class="about-me"] {
 }
 
 .about-me {
-	color: red;
+	color: white;
 }
 
 /*#services {
@@ -35,15 +35,20 @@ ul:hover {
 }
 
 #google-link:visited {
-	color:yellow;
+	color: rgb(90,90,90);
 }
 
 h2 + a {
-	color: yellow;
+	color: black;
 }
 
 textarea + button {
-	color: purple;
+	color: rgb(207, 152, 0);
+}
+
+textarea {
+	width: 300px;
+	height: 200px;
 }
 
 ul > li {
@@ -51,34 +56,51 @@ ul > li {
 }
 
 ul li {
-	color: rgb(0,255,230);
+	color: rgb(90, 90, 90);
 }
 
 img[src*="../img/"] {
 	border: 10px solid black;
 	margin: 40px;
-	padding: 100px 40px 10px 10px;
+	padding: 10px 40px 10px 40px;
 }
 
 #google-link {
-	text-decoration: line-through;
+	text-decoration: none;
 }
 
-.about-me {
+/*.about-me {
 	background: blue
-}
+}*/
 
-#services-image{
+/*#services-image{
 	height: 400px;
 	width: 70vw;
-	/*background: linear-gradient(160deg, rgba(94,255,90, 0.5), green, blue);*/
+	/*background: linear-gradient(160deg, rgba(94,255,90, 0.5), green, blue);
 	background: radial-gradient(red 20%, blue 40%, grey 50%);
-	float: right;
-	/*background-size: cover;*/
+	float: left;
+	/*background-size: cover;
 	border: 14px double pink;
 	
+}*/
 
+#ordered-list {
+	float:right;
+	margin-right: 2px; 
+	padding-top: 30px; 
+	font-size:1.1em;
+}
 
+#oranges {
+	border: none;
+	margin: auto;
+	padding:2px;
+	height: 200px;
+	/*float: left;*/
+}
+
+.normal {
+	font-style: normal;
 }
 
 .italics {
@@ -86,7 +108,7 @@ img[src*="../img/"] {
 }
 
 .container {
-	background-color: rgb(250,250,250);
+	background-color: rgba(252, 186, 3, 0.7);
 	margin: 10px;
 	height: 150px;
 	display: flex;
@@ -94,16 +116,19 @@ img[src*="../img/"] {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	border: 5px dashed black;
 
 }
 
 .container-item {
-	background: rgb(140,150,250);
-	color: white;
+	background: rgb(255,255,255);
+	color: rgb(90,90,90);
+	font-style: italic;
 	text-align: center;
+	font-weight: 900;
 
 	width: 70px;
-	line-height: 20px;
+	line-height: 50px;
 	margin: 10px;
 }
 
