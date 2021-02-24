@@ -88,12 +88,13 @@ img[src*="../img/"] {
 .container {
 	background-color: rgb(250,250,250);
 	margin: 10px;
-	height: 300px;
+	height: 150px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items:baseline;
+	align-items: center;
+
 }
 
 .container-item {
@@ -102,7 +103,7 @@ img[src*="../img/"] {
 	text-align: center;
 
 	width: 70px;
-	line-height: 50px;
+	line-height: 20px;
 	margin: 10px;
 }
 
