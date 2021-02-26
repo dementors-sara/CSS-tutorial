@@ -152,4 +152,23 @@ img[src*="../img/"] {
 	margin: 10px;
 }
 
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	background: blue;
+	transition: all 300ms ease;
+}
+
+.submit-button:hover {
+	background:lightblue;
+	padding: 20px 30px;
+
+}
+
 
