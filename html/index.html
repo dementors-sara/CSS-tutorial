@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
 	<title>A really cool website</title>
 </head>
-<body>
+
+<body style="margin: 0px 20px 0px 20px">
+
+
+<div class="w3-sidebar w3-bar-block w3-border-right w3-white w3-xlarge w3-animate-left" style="display:none; z-index:4" id="mySidebar" onclick="w3_close()">
+	<button onclick="w3_close()" class="w3-bar-item">Close &times</button>
+  <a class="w3-bar-item w3-button"><i class="fa fa-home fa-fw"></i>Home</a>
+  <a  class="w3-bar-item w3-button"><i class="fa fa-search fa-fw"></i>Search</a>
+  <a  class="w3-bar-item w3-button"><i class="fa fa-envelope fa-fw"></i>Mail</a>
+  <a class="w3-bar-item w3-button"><i class="fa fa-globe fa-fw"></i>Globe</a>
+</div>
+
+<div class="w3-overlay" id="myOverlay" onclick="w3_close()" style="cursor:pointer">
+</div>
+
+
+<div>
+  <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+</div>
+
+
+<script>
+function w3_open() {
+	document.getElementById("mySidebar").style.width = "20%";
+  document.getElementById("mySidebar").style.display = "block";
+   document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+   document.getElementById("myOverlay").style.display = "none";
+}
+
+
+</script>
+
 <h1 class="title">Epic website header</h1>
+
+
+
+
 <h2 class="about-me about-me2" id="services">Header that almost disappears on hover </h2>
 <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus vitae congue mauris. Lectus proin nibh nisl condimentum id venenatis a. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Id porta nibh venenatis cras.</p>
 <a href="http://www.google.se" id="google-link">Completely random link to Google which turns grey when visited</a>
