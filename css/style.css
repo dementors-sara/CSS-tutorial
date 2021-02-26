@@ -174,4 +174,28 @@ img[src*="../img/"] {
 
 }
 
+.animation-header {
+	animation-name: translate-element;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes translate-element {
+	0% {
+		background: red;
+		transform: translate(0px, 0px);
+	}
+	50% {
+		background: yellow;
+		transform: translate(10px, 10px);
+	}
+	100% {
+		background: black;
+		transform: translate(20px, 20px);
+	}
+}
+
 
