@@ -136,8 +136,15 @@ img[src*="../img/"] {
 	margin: 10px;
 	height: 300px;
 	display: grid;
-	grid-template-columns: auto  auto;
+	grid-template-columns: auto auto auto;
+	/*grid-column-gap: 150px;
+	grid-row-gap: 100px;*/
 	grid-template-rows: auto auto;
+	grid-gap: 150px 150px;
+
+/*	justify-content: space-evenly;
+	align-content: space-between;*/
+
 }
 
 .grid-item {
